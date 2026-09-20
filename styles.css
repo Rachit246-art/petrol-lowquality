@@ -2811,12 +2811,18 @@ body {
     justify-content: center;
     padding: 8vh 1.5rem 2rem 1.5rem;
     box-sizing: border-box;
-    opacity: 0;
+    pointer-events: none;
     transition: opacity 0.25s ease;
 }
 
+.site-search-modal:not(.active) {
+    display: none !important;
+    pointer-events: none !important;
+}
+
 .site-search-modal.active {
-    display: flex;
+    display: flex !important;
+    pointer-events: auto !important;
     opacity: 1;
 }
 

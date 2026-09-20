@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <title>Contact Us | Kembot Petroleum</title>
+    <link rel="stylesheet" href="styles.css?v=2.4">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        .contact-page-layout {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 3.5rem;
+            padding: 5rem 0;
+        }
+        .contact-info-panel {
+            background: #0b1120;
+            color: #fff;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .contact-info-panel h3 {
+            font-family: var(--font-heading);
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+        .contact-info-panel p {
+            color: #94a3b8;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+        .contact-item-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .contact-item-row .icon {
+            font-size: 1.4rem;
+            color: var(--accent);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .contact-item-row strong {
+            display: block;
+            color: #fff;
+            font-size: 0.95rem;
+            margin-bottom: 0.2rem;
+        }
+        .contact-item-row span, .contact-item-row a {
+            color: #cbd5e1;
+            font-size: 0.9rem;
+            text-decoration: none;
+            line-height: 1.5;
+        }
+        .contact-form-panel {
+            background: #fff;
+            padding: 2.5rem;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+        }
+        .contact-form-panel h3 {
+            font-family: var(--font-heading);
+            font-size: 1.8rem;
+            color: #0b1120;
+            margin-bottom: 0.5rem;
+        }
+        .contact-form-panel p {
+            color: #64748b;
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+        .form-grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.2rem;
+        }
+        .input-group {
+            margin-bottom: 1.2rem;
+        }
+        .input-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #334155;
+            margin-bottom: 0.4rem;
+        }
+        .input-group input, .input-group select, .input-group textarea {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 0.92rem;
+            outline: none;
+            box-sizing: border-box;
+            font-family: inherit;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        .input-group input:focus, .input-group select:focus, .input-group textarea:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(227, 24, 55, 0.1);
+        }
+        .btn-send-inquiry {
+            width: 100%;
+            padding: 0.9rem;
+            background: var(--accent);
+            color: #fff;
+            font-weight: 700;
+            font-size: 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.15s;
+        }
+        .btn-send-inquiry:hover {
+            background: var(--accent-hover);
+            transform: translateY(-1px);
+        }
+        @media (max-width: 992px) {
+            .contact-page-layout {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+            }
+            .form-grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="top-bar">
+            <a href="index.html" class="logo" style="text-decoration: none; color: inherit;">
+                <img src="images/logo.png" alt="Kembot Petroleum Logo" class="site-logo-img">
+            </a>
+            <div class="top-contact">
+                <div class="contact-item">
+                    <span class="icon" style="color:var(--accent);font-size:1.5rem;">📍</span>
+                    <div class="contact-text">
+                        <strong>Main Location</strong><br>
+                        <span>Level 11, Platina, G Block, BKC, Bandra East, Mumbai Maharashtra, India 400051</span>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="icon" style="color:var(--accent);font-size:1.5rem;">✉️</span>
+                    <div class="contact-text">
+                        <strong>Mail Us</strong><br>
+                        <span>Contact@kembotpetroleum.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="bottom-nav">
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
+            <label for="mobile-menu-toggle" class="mobile-menu-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products (27)</a></li>
+                <li><a href="contact.html" style="color:#ff4500; font-weight:700;">Contact Us</a></li>
+            </ul>
+            <div class="search-icon">🔍</div>
+        </nav>
+    </header>
+
+    <!-- Inner Page Banner -->
+    <section class="inner-banner">
+        <div class="container center">
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a> &raquo; <span>Contact Us</span>
+            </div>
+            <h1 class="inner-title">Contact Us</h1>
+        </div>
+    </section>
+
+    <!-- Content: Contact Page Layout -->
+    <section class="container contact-page-layout">
+        <!-- Left: Office Locations -->
+        <div class="contact-info-panel">
+            <h3>Headquarters & Global Offices</h3>
+            <p>Reach out directly to Kembot Petroleum for industrial lubricants procurement, technical data sheets, and logistics support.</p>
+
+            <div class="contact-item-row">
+                <span class="icon">📍</span>
+                <div>
+                    <strong>Mumbai Headquarters:</strong>
+                    <span>Level 11, Platina, G Block, BKC, Bandra East, Mumbai Maharashtra, India 400051</span>
+                </div>
+            </div>
+
+            <div class="contact-item-row">
+                <span class="icon">📍</span>
+                <div>
+                    <strong>Bangalore Office:</strong>
+                    <span>Level 8, Umiya Business Bay, Cessna Business Park Marathahalli ORR, Bangalore Karnataka India 560001</span>
+                </div>
+            </div>
+
+            <div class="contact-item-row">
+                <span class="icon">📍</span>
+                <div>
+                    <strong>Dubai Branch:</strong>
+                    <span>RV Global Limited, Level 1, C1, S Z Road - Trade Centre - Dubai - United Arab Emirates</span>
+                </div>
+            </div>
+
+            <div class="contact-item-row">
+                <span class="icon">📍</span>
+                <div>
+                    <strong>London Branch:</strong>
+                    <span>RV Global Limited, Level 4, Rex House, 4-12 Regent St., London SW1Y 4PE, U K</span>
+                </div>
+            </div>
+
+            <div class="contact-item-row">
+                <span class="icon">📍</span>
+                <div>
+                    <strong>New Zealand Office:</strong>
+                    <span>RV Global Limited, Level 31/6 Gilmer Terrace, Wellington Central, Wellington 6011, NZ</span>
+                </div>
+            </div>
+
+            <div class="contact-item-row">
+                <span class="icon">📍</span>
+                <div>
+                    <strong>South Africa Branch:</strong>
+                    <span>RV Global Limited, Level 2, Nelson Mandela Square, West Tower, Maude St, Johannesburg, 2146, South Africa</span>
+                </div>
+            </div>
+
+            <div class="contact-item-row" style="margin-top:2rem; padding-top:1.5rem; border-top:1px solid #1e293b;">
+                <span class="icon">✉️</span>
+                <div>
+                    <strong>Mail Us:</strong>
+                    <a href="mailto:Contact@kembotpetroleum.com">Contact@kembotpetroleum.com</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right: Inquiry Form -->
+        <div class="contact-form-panel">
+            <h3>Get In Touch</h3>
+            <p>Please fill out the form below and our technical sales team will contact you promptly.</p>
+
+            <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                <div class="form-grid-2">
+                    <div class="input-group">
+                        <label>Full Name *</label>
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Business Email *</label>
+                        <input type="email" placeholder="name@company.com" required>
+                    </div>
+                </div>
+
+                <div class="form-grid-2">
+                    <div class="input-group">
+                        <label>Phone / WhatsApp *</label>
+                        <input type="tel" placeholder="+91 XXXXX XXXXX" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Product Interest</label>
+                        <select>
+                            <option>Hydraulic Oils HLP Series</option>
+                            <option>Soluble Cutting Oil</option>
+                            <option>Premium Diesel Engine Oil 15W-40</option>
+                            <option>Industrial Gear Oils EP Series</option>
+                            <option>4T Plus Motorcycle Oil</option>
+                            <option>Industrial & Automotive Greases</option>
+                            <option>Spindle Oils (High Speed)</option>
+                            <option>Straight / Neat Cutting Oil</option>
+                            <option>Other Lubricants / Bulk Fuel</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Packaging Required</label>
+                    <select>
+                        <option>210L Barrel / Drum</option>
+                        <option>50L Drum</option>
+                        <option>20L Pail / Bucket</option>
+                        <option>Bulk Road Tanker Load</option>
+                        <option>Sample Request</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Message / Specifications</label>
+                    <textarea rows="4" placeholder="Please specify your equipment, operating conditions, or competitor brand equivalent..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-send-inquiry">Send Inquiry &gt;</button>
+            </form>
+
+            <div id="contactSuccessMessage" style="display:none; text-align:center; padding:2rem 1rem; background:#f0fdf4; border-radius:8px; border:1px solid #bbf7d0;">
+                <div style="font-size:2.5rem; color:#16a34a; margin-bottom:0.5rem;">✓</div>
+                <h4 style="font-size:1.3rem; color:#166534; margin-bottom:0.5rem;">Inquiry Received!</h4>
+                <p style="color:#15803d; font-size:0.95rem; margin:0;">Thank you for reaching out to Kembot Petroleum. Our technical sales representative will be in touch shortly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-main">
+        <div class="footer-overlay"></div>
+        <div class="footer-content">
+            <div class="container footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <a href="index.html" style="text-decoration: none; color: inherit;">
+                            <img src="images/logo.png" alt="Kembot Petroleum Logo" style="height: 50px; width: auto; filter: brightness(0) invert(1);">
+                        </a>
+                    </div>
+                    <p>Kembot Petrochemical Corporation is a distinguished manufacturer producing high-quality lubricants for all types of engines.</p>
+                    <div class="social-links">
+                        <a href="#">f</a>
+                        <a href="#">t</a>
+                        <a href="#">in</a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">All Products (27)</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Headquarters</h3>
+                    <p style="font-size:0.9rem; color:#aaa; line-height:1.6;">Level 11, Platina, G Block, BKC, Bandra East, Mumbai Maharashtra, India 400051<br><br>
+                    <strong>Email:</strong> Contact@kembotpetroleum.com</p>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Gallery</h3>
+                    <div class="footer-gallery">
+                        <img src="images/real-tanker-1.jpg" alt="Kembot Tanker Truck Side">
+                        <img src="images/real-tanker-2.jpg" alt="Kembot Tanker Truck Back">
+                        <img src="images/real-oil-group.jpg" alt="Kembot Lubricants Range">
+                        <img src="images/real-oil-extreme.jpg" alt="Kembot Extreme 4T Oil">
+                        <img src="images/real-grease-bucket.jpg" alt="Kembot Grease Bucket">
+                        <img src="images/real-grease-raw.jpg" alt="Kembot Grease Drums">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom center">
+                <p>&copy; 2026 Kembot Petroleum. All rights reserved.</p>
+                <span class="footer-credit">Made with <span class="heart-icon">❤️</span> by <a href="https://www.regortz.com/" target="_blank" rel="noopener noreferrer" class="regortz-link">Regortz</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js?v=2.2"></script>
+    <script>
+        function handleContactSubmit(e) {
+            e.preventDefault();
+            document.getElementById('contactForm').style.display = 'none';
+            document.getElementById('contactSuccessMessage').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
