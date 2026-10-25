@@ -356,14 +356,27 @@ body {
 }
 
 .hero-bg {
-    height: 80vh;
-    background-color: #333;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('images/hero-bg.png'); /* Custom generic truck background */
+    min-height: 82vh;
+    background-color: #07172C;
+    background-image: linear-gradient(180deg, rgba(7, 23, 44, 0.45) 0%, rgba(7, 23, 44, 0.72) 70%, rgba(7, 23, 44, 0.95) 100%), url('images/hero-bg.png?v=3.1');
     background-size: cover;
-    background-position: center;
+    background-position: center 38%;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.hero-bg::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background: linear-gradient(to top, #ffffff, transparent);
+    pointer-events: none;
 }
 
 .hero-content {
