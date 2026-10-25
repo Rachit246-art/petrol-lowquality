@@ -2,7 +2,7 @@
   {
     "id": "soluble-cutting-oil",
     "name": "Soluble Cutting Oil",
-    "brand": "KEMBOT SOL XL / SUPERCOOL - S",
+    "brand": "DLFROL SOL XL / SUPERCOOL - S",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "20-150-001.I",
@@ -10,7 +10,7 @@
     "packaging": "20L, 50L, 210L Drums",
     "image": "images/Products/SOLUBLE CUTTING OIL-2.png",
     "tagline": "High-performance bio-stable water-soluble cutting fluid for severe metal machining.",
-    "description": "Kembot Soluble Cutting Oil is a premium emulsifiable metalworking fluid formulated with refined base oils, extreme pressure additives, and multi-component biocides. It forms a highly stable, milky emulsion when mixed with water and provides exceptional cooling and lubricating characteristics.",
+    "description": "DLFROL Soluble Cutting Oil is a premium emulsifiable metalworking fluid formulated with refined base oils, extreme pressure additives, and multi-component biocides. It forms a highly stable, milky emulsion when mixed with water and provides exceptional cooling and lubricating characteristics.",
     "applications": [
       "Recommended for all major metal cutting and machining operations including grinding, planing, drilling, milling, shaping, and turning.",
       "Suitable for both ferrous metals and most non-ferrous alloys.",
@@ -50,7 +50,7 @@
   {
     "id": "straight-cut-oil",
     "name": "Straight / Neat Cutting Oil",
-    "brand": "KEMBOT FIN-MB, FIN-CB, FIN-SB",
+    "brand": "DLFROL FIN-MB, FIN-CB, FIN-SB",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "IS-3065-1985 (Types I, II, III)",
@@ -58,7 +58,7 @@
     "packaging": "20L, 210L Drums",
     "image": "images/Products/MOULINE CUTTING OIL-1.png",
     "tagline": "Heavy-duty non-emulsifiable straight cutting fluid for precision machining operations.",
-    "description": "Kembot Neat Cutting Oils (FIN Series) are blended from select solvent-refined mineral oils fortified with fatty oils, extreme-pressure chlor-sulfur compounds, and anti-mist agents to meet demanding machining operations.",
+    "description": "DLFROL Neat Cutting Oils (FIN Series) are blended from select solvent-refined mineral oils fortified with fatty oils, extreme-pressure chlor-sulfur compounds, and anti-mist agents to meet demanding machining operations.",
     "applications": [
       "Recommended for operations like deep hole drilling, free cutting, broaching, gear hobbing, tapping, and threading.",
       "Suitable for alloy steels, stainless steel, and high-tensile metals.",
@@ -98,7 +98,7 @@
   {
     "id": "white-oils",
     "name": "White Oils (Technical & Pharma Grade)",
-    "brand": "KEMBOT WHITE - A / KEMBOT WHITE - B",
+    "brand": "DLFROL WHITE - A / DLFROL WHITE - B",
     "category": "Specialties",
     "categorySlug": "specialties.html",
     "spec": "Technical / Liquid Paraffin Standards",
@@ -106,7 +106,7 @@
     "packaging": "20L, 210L Drums, ISO Tankers",
     "image": "images/product-bottle.png",
     "tagline": "Highly refined, odorless, tasteless, and chemically inert mineral white oils.",
-    "description": "Kembot White Oils are severely hydro-treated, ultra-pure paraffinic oils free from aromatic hydrocarbons, sulfur, nitrogen compounds, and heavy metals, offering exceptional color stability and inertness.",
+    "description": "DLFROL White Oils are severely hydro-treated, ultra-pure paraffinic oils free from aromatic hydrocarbons, sulfur, nitrogen compounds, and heavy metals, offering exceptional color stability and inertness.",
     "applications": [
       "Polymer processing, plasticizer in polystyrene, thermoplastic elastomers, and adhesives.",
       "Lubrication of precision textile machinery and food-packaging auxiliary equipment.",
@@ -145,7 +145,7 @@
   {
     "id": "hydraulic-oils",
     "name": "Hydraulic Oils (Standard Anti-Wear)",
-    "brand": "KEMBOT HYDRA 32, 46, 68, 100, 150, 220, 320, 460",
+    "brand": "DLFROL HYDRA 32, 46, 68, 100, 150, 220, 320, 460",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "IS 10522 / DIN 51524 Part 1",
@@ -153,7 +153,7 @@
     "packaging": "20L, 50L, 210L Drums",
     "image": "images/Products/HYDRAULIC OIL 68-1.png",
     "tagline": "High-reliability anti-wear and anti-foam hydraulic oils for modern power transmission.",
-    "description": "Kembot Hydra oils are premium heavy-duty hydraulic power transmission fluids blended with solvent refined base stocks, anti-wear zinc additives, corrosion inhibitors, and foam suppressants.",
+    "description": "DLFROL Hydra oils are premium heavy-duty hydraulic power transmission fluids blended with solvent refined base stocks, anti-wear zinc additives, corrosion inhibitors, and foam suppressants.",
     "applications": [
       "Hydraulic systems of plastic injection molding machines, presses, machine tools, and construction equipment.",
       "Enclosed industrial gearboxes, vane pumps, piston pumps, and circulating systems.",
@@ -193,7 +193,7 @@
   {
     "id": "hydraulic-oils-hlp",
     "name": "Hydraulic Oils HLP Series",
-    "brand": "KEMBOT HYDRA - HLP SERIES 32, 46, 68, 100, 150, 220, 320, 460",
+    "brand": "DLFROL HYDRA - HLP SERIES 32, 46, 68, 100, 150, 220, 320, 460",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "IS 11656-1986, DIN 51524 Part 2 (HLP), Cincinnati Milacron P-68/P-69/P-70",
@@ -201,7 +201,7 @@
     "packaging": "20L, 50L, 210L Drums",
     "image": "images/Products/HYDRAULIC OIL 68-2.png",
     "tagline": "High-performance premium HLP hydraulic fluid for high-pressure electro-hydraulic systems.",
-    "description": "Kembot Hydra HLP oils are advanced premium-performance anti-wear hydraulic oils engineered for severe operating conditions with high pressures, precision servo-valves, and extreme temperature fluctuations.",
+    "description": "DLFROL Hydra HLP oils are advanced premium-performance anti-wear hydraulic oils engineered for severe operating conditions with high pressures, precision servo-valves, and extreme temperature fluctuations.",
     "applications": [
       "High-pressure hydrostatic and hydrodynamic hydraulic systems operating above 250 bar.",
       "CNC machine tools, robotics, electro-hydraulic proportional valves, and injection molding machinery.",
@@ -241,7 +241,7 @@
   {
     "id": "engine-oils-linear",
     "name": "Engine Oils (Linear / Monograde)",
-    "brand": "KEMBOT LUBE 30, 40, 50",
+    "brand": "DLFROL LUBE 30, 40, 50",
     "category": "Automotive Oil",
     "categorySlug": "automotive-oil.html",
     "spec": "API CF/SF, IS 13656-2002 EDL-2",
@@ -249,7 +249,7 @@
     "packaging": "1L, 5L, 20L, 50L, 210L",
     "image": "images/Products/ENGINE OIL-1.png",
     "tagline": "Heavy-duty monograde diesel and gasoline engine oils for commercial vehicles and stationary gensets.",
-    "description": "Kembot Lube monograde engine oils are formulated with high-viscosity index virgin paraffinic base stocks and detergent-dispersant additive chemistry to protect diesel and petrol engines.",
+    "description": "DLFROL Lube monograde engine oils are formulated with high-viscosity index virgin paraffinic base stocks and detergent-dispersant additive chemistry to protect diesel and petrol engines.",
     "applications": [
       "Naturally aspirated and turbocharged heavy-duty diesel engines in trucks, buses, tractors, and construction machinery.",
       "Stationary diesel generator sets, agricultural pump sets, and marine auxiliary engines.",
@@ -289,7 +289,7 @@
   {
     "id": "gear-oils",
     "name": "Industrial Gear Oils & Gear EP Series",
-    "brand": "KEMBOT GEAR / GEAR EP SERIES 90, 140, 220, 320, 460",
+    "brand": "DLFROL GEAR / GEAR EP SERIES 90, 140, 220, 320, 460",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "IS 8489-1989 (EP Type), DIN 51517 Part 3 (CLP), AGMA 9005-E02",
@@ -297,7 +297,7 @@
     "packaging": "20L, 50L, 210L Drums",
     "image": "images/Products/GEAR OIL.png",
     "tagline": "Extreme pressure industrial gear lubricants engineered for heavy shock loads.",
-    "description": "Kembot Gear EP Series oils are formulated from solvent-extracted high VI base oils combined with sulfur-phosphorus extreme pressure additives that impart exceptional load carrying and anti-scuffing capabilities.",
+    "description": "DLFROL Gear EP Series oils are formulated from solvent-extracted high VI base oils combined with sulfur-phosphorus extreme pressure additives that impart exceptional load carrying and anti-scuffing capabilities.",
     "applications": [
       "Enclosed spur, helical, bevel, spiral, and planetary industrial gearboxes.",
       "Heavy load applications in steel mills, cement plants, mining crushers, paper machines, and sugar mills.",
@@ -337,15 +337,15 @@
   {
     "id": "hone-flush-oil",
     "name": "Hone Flush Oil & SPL",
-    "brand": "KEMBOT HONE FLUSH / KEMBOT HONE FLUSH SPL",
+    "brand": "DLFROL HONE FLUSH / DLFROL HONE FLUSH SPL",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
-    "spec": "Kembot Hone 480, 980, 981 Series",
+    "spec": "DLFROL Hone 480, 980, 981 Series",
     "equivalent": "SERVO HONE 7, CASTROL HONILO - 480, 980, 981 SERIES",
     "packaging": "20L, 210L Drums",
     "image": "images/product-drum.png",
     "tagline": "Ultra-low viscosity honing fluid with superior flushing action and stone life extension.",
-    "description": "Kembot Hone Flush is a highly refined low-viscosity specialty oil containing active lubricity enhancers, wetting agents, and anti-weld additives for superfinishing and honing operations.",
+    "description": "DLFROL Hone Flush is a highly refined low-viscosity specialty oil containing active lubricity enhancers, wetting agents, and anti-weld additives for superfinishing and honing operations.",
     "applications": [
       "Honing and superfinishing of engine cylinder liners, bearing races, hydraulic cylinders, and precision tubes.",
       "Machining, turning, drilling, and tapping of aluminum alloys and ferrous metals.",
@@ -385,7 +385,7 @@
   {
     "id": "spindle-oils",
     "name": "Spindle Oils (High Speed)",
-    "brand": "KEMBOT SPIN 2, 5, 10, 12, 15, 22",
+    "brand": "DLFROL SPIN 2, 5, 10, 12, 15, 22",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "VG 2, 5, 10, 12, 15, 22 / IS 493 Part 1",
@@ -393,7 +393,7 @@
     "packaging": "20L, 210L Drums",
     "image": "images/Products/SPINDLE OIL.png",
     "tagline": "Low-viscosity premium oils for high-speed textile and machine tool spindles.",
-    "description": "Kembot Spin oils are ultra-light viscosity lubricating oils processed from hydrofinished paraffinic base stocks with anti-oxidants, anti-rust, and lubricity film improvers designed for tight-clearance spindle bearings.",
+    "description": "DLFROL Spin oils are ultra-light viscosity lubricating oils processed from hydrofinished paraffinic base stocks with anti-oxidants, anti-rust, and lubricity film improvers designed for tight-clearance spindle bearings.",
     "applications": [
       "High-speed spindles in textile ring spinning, twisting, and winding machines.",
       "Precision grinding machine spindles, CNC engraving heads, and optical tooling.",
@@ -433,7 +433,7 @@
   {
     "id": "machinery-oils",
     "name": "Machinery Oils (General Lubrication)",
-    "brand": "KEMBOT LINE 32, 46, 68, 100, 150, 220, 320, 460",
+    "brand": "DLFROL LINE 32, 46, 68, 100, 150, 220, 320, 460",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "VG 32 to 460 / IS 493 Part 1",
@@ -441,7 +441,7 @@
     "packaging": "20L, 50L, 210L Drums",
     "image": "images/product-drum.png",
     "tagline": "All-purpose industrial machinery and line lubrication oils for general manufacturing equipment.",
-    "description": "Kembot Line oils are economical, high-quality general-purpose machinery lubricating oils formulated with refined straight-run base stocks with good natural lubricity, chemical stability, and film strength.",
+    "description": "DLFROL Line oils are economical, high-quality general-purpose machinery lubricating oils formulated with refined straight-run base stocks with good natural lubricity, chemical stability, and film strength.",
     "applications": [
       "Textile looms, spinning frames, paper mills, and printing press plain bearings.",
       "Open and semi-enclosed bearing journals, hand-oiled pivots, slides, and linkages.",
@@ -481,7 +481,7 @@
   {
     "id": "loom-oils",
     "name": "Loom Oils (Textile Machinery)",
-    "brand": "KEMBOT TEX 100, 150",
+    "brand": "DLFROL TEX 100, 150",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "Tex 100, Tex 150 / Textile Scourable Grade",
@@ -489,7 +489,7 @@
     "packaging": "20L, 210L Drums",
     "image": "images/product-bottle.png",
     "tagline": "Special non-drip, scourable lubricant for high-speed textile looms and weaving machinery.",
-    "description": "Kembot Tex Loom oils are specifically engineered for textile weaving machines with adhesive tackiness additives and scourable surfactants to eliminate oil splashing and allow easy washing if fabric contact occurs.",
+    "description": "DLFROL Tex Loom oils are specifically engineered for textile weaving machines with adhesive tackiness additives and scourable surfactants to eliminate oil splashing and allow easy washing if fabric contact occurs.",
     "applications": [
       "Lubrication of picking motions, cams, shuttle boxes, harnesses, and crankshaft bearings on textile looms (Sulzer, Dornier, Rapier, Air-jet, and shuttle looms).",
       "Knitting machines, spinning frames, and carding machine sliding parts."
@@ -505,7 +505,7 @@
     "specsTable": [
       {
         "label": "Available Grades",
-        "val": "Kembot Tex 100, Tex 150"
+        "val": "DLFROL Tex 100, Tex 150"
       },
       {
         "label": "Kinematic Viscosity @ 40°C",
@@ -528,7 +528,7 @@
   {
     "id": "quenching-oil",
     "name": "Quenching Oils (Heat Treatment)",
-    "brand": "KEMBOT QUENCH SERIES",
+    "brand": "DLFROL QUENCH SERIES",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "IS 2664-1980 (Straight & Accelerated Grades)",
@@ -536,7 +536,7 @@
     "packaging": "20L, 210L Drums, Bulk Tankers",
     "image": "images/product-drum.png",
     "tagline": "Controlled cooling rate quenching oils for optimum metallurgical hardness and zero cracking.",
-    "description": "Kembot Quench Series oils are specialized heat treatment fluids formulated from high thermal-stability paraffinic base oils combined with wetting acceleration additives that provide fast, uniform cooling.",
+    "description": "DLFROL Quench Series oils are specialized heat treatment fluids formulated from high thermal-stability paraffinic base oils combined with wetting acceleration additives that provide fast, uniform cooling.",
     "applications": [
       "Hardening of alloy steel gears, automotive components, crankshafts, and fasteners.",
       "Quenching of high-speed tool steel ball bearings, forging dies, and metal stampings.",
@@ -576,7 +576,7 @@
   {
     "id": "thermic-oil",
     "name": "Thermic Oils (Heat Transfer Fluids)",
-    "brand": "KEMBOT THERM SERIES",
+    "brand": "DLFROL THERM SERIES",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "Thermic Fluid Standard / DIN 51522",
@@ -584,7 +584,7 @@
     "packaging": "20L, 210L Drums",
     "image": "images/product-drum.png",
     "tagline": "High thermal stability heat transfer fluid for closed loop heating systems up to 320 °C.",
-    "description": "Kembot Therm series oils are severe hydro-cracked mineral heat transfer media with high specific heat and thermal conductivity, delivering trouble-free indirect process heating.",
+    "description": "DLFROL Therm series oils are severe hydro-cracked mineral heat transfer media with high specific heat and thermal conductivity, delivering trouble-free indirect process heating.",
     "applications": [
       "Closed loop, indirect, liquid-phase heat transfer systems in chemical, textile, plywood, food, and pharmaceutical industries.",
       "Jacketed reactors, bitumen heating tanks, drying ovens, and heat exchangers."
@@ -623,7 +623,7 @@
   {
     "id": "pneumatic-oils",
     "name": "Pneumatic Tool & Rock Drill Oils",
-    "brand": "KEMBOT PNEUMO 46, 100, 150, 220, 320, 460",
+    "brand": "DLFROL PNEUMO 46, 100, 150, 220, 320, 460",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "VG 46, 100, 150, 220, 320, 460",
@@ -631,7 +631,7 @@
     "packaging": "20L, 50L, 210L Drums",
     "image": "images/product-drum.png",
     "tagline": "Heavy-duty extreme pressure pneumatic tool lubricants with moisture emulsifying agents.",
-    "description": "Kembot Pneumo series oils are formulated specifically for air-operated percussive and rotary tools where air expansion causes severe chilling and condensed moisture.",
+    "description": "DLFROL Pneumo series oils are formulated specifically for air-operated percussive and rotary tools where air expansion causes severe chilling and condensed moisture.",
     "applications": [
       "Pneumatic equipment like rock drills, jack hammers, paving breakers, chippers, rivet guns, and air grinders.",
       "Underground mining, tunneling, quarrying, and civil construction air tools.",
@@ -671,7 +671,7 @@
   {
     "id": "way-oils",
     "name": "Slideway Oils (Way Lubricants)",
-    "brand": "KEMBOT WAY 32, 46, 68, 100, 150, 220, 320, 460",
+    "brand": "DLFROL WAY 32, 46, 68, 100, 150, 220, 320, 460",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "VG 32 to 460 / DIN 51502 CGLP / ISO 19378",
@@ -679,7 +679,7 @@
     "packaging": "20L, 50L, 210L Drums",
     "image": "images/product-drum.png",
     "tagline": "Anti-stick-slip slideway lubricants for precision CNC and machine tool guide rails.",
-    "description": "Kembot Way oils are specially developed for the lubrication of horizontal and vertical machine tool slideways, guides, and feed mechanisms to eliminate jerky motion (stick-slip).",
+    "description": "DLFROL Way oils are specially developed for the lubrication of horizontal and vertical machine tool slideways, guides, and feed mechanisms to eliminate jerky motion (stick-slip).",
     "applications": [
       "Slideways, guideways, and carriages of planers, grinders, horizontal boring machines, shapers, milling machines, and CNC machining centers.",
       "Combined machine tool hydraulic and slideway systems.",
@@ -719,7 +719,7 @@
   {
     "id": "press-oils",
     "name": "Press Oils (Metal Stamping & Drawing)",
-    "brand": "KEMBOT PRESS 32, 46, 68, 100, 150, 220, 320, 460",
+    "brand": "DLFROL PRESS 32, 46, 68, 100, 150, 220, 320, 460",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "VG 32, 46, 68, 100, 150, 220, 320, 460",
@@ -727,7 +727,7 @@
     "packaging": "20L, 210L Drums",
     "image": "images/product-drum.png",
     "tagline": "Heavy-duty press and deep drawing lubricants providing extreme pressure die protection.",
-    "description": "Kembot Press series lubricants are formulated with high-film base oils and boundary/EP additives designed for sheet metal pressing, deep drawing, blanking, and punching.",
+    "description": "DLFROL Press series lubricants are formulated with high-film base oils and boundary/EP additives designed for sheet metal pressing, deep drawing, blanking, and punching.",
     "applications": [
       "Automotive body panel pressing, appliance stamping, and deep drawing of mild and alloy steels.",
       "Heavy hydraulic press column and mechanical press crank lubrication.",
@@ -767,7 +767,7 @@
   {
     "id": "glass-cutting-oils",
     "name": "Glass Cutting Oil",
-    "brand": "KEMBOT GLASS CUTTING OIL",
+    "brand": "DLFROL GLASS CUTTING OIL",
     "category": "Specialties",
     "categorySlug": "specialties.html",
     "spec": "Meets All Premium Glass Industry Standards",
@@ -775,7 +775,7 @@
     "packaging": "20L, 210L Drums",
     "image": "images/product-bottle.png",
     "tagline": "Specialized low-viscosity cutting fluid for precision flat, float, and automotive glass cutting.",
-    "description": "Kembot Glass Cutting Oil is a formulated, low-viscosity, controlled-evaporation fluid designed specifically for automated and manual glass scoring and cutting wheels.",
+    "description": "DLFROL Glass Cutting Oil is a formulated, low-viscosity, controlled-evaporation fluid designed specifically for automated and manual glass scoring and cutting wheels.",
     "applications": [
       "Cutting of high-thickness flat glass sheets, float glass lines, and architectural glass.",
       "Automotive windshield and mirror precision scoring.",
@@ -815,7 +815,7 @@
   {
     "id": "transformer-oils",
     "name": "Transformer Oils (Electrical Insulating)",
-    "brand": "KEMBOT TF OILS",
+    "brand": "DLFROL TF OILS",
     "category": "Specialties",
     "categorySlug": "specialties.html",
     "spec": "IS-335: 2018 / IEC 60296",
@@ -823,7 +823,7 @@
     "packaging": "210L Epoxy-Coated Drums, Dedicated Tankers",
     "image": "images/product-drum.png",
     "tagline": "Ultra-pure uninhibited dielectric insulating oil for power and distribution transformers.",
-    "description": "Kembot TF Transformer Oil is a highly refined naphthenic/paraffinic mineral insulating oil possessing superior dielectric properties, high breakdown voltage, and excellent heat dissipation.",
+    "description": "DLFROL TF Transformer Oil is a highly refined naphthenic/paraffinic mineral insulating oil possessing superior dielectric properties, high breakdown voltage, and excellent heat dissipation.",
     "applications": [
       "Power transformers, distribution transformers, switchgear, and circuit breakers.",
       "Capacitors, tap-changers, and high-voltage electrical bushings.",
@@ -863,7 +863,7 @@
   {
     "id": "freeze-oils",
     "name": "Freeze Oils (Refrigeration Compressor)",
-    "brand": "KEMBOT FREEZE 32, 46, 57, 68",
+    "brand": "DLFROL FREEZE 32, 46, 57, 68",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "VG 32, 46, 57, 68 / DIN 51503 (KAA / KC)",
@@ -871,7 +871,7 @@
     "packaging": "20L, 210L Drums",
     "image": "images/Products/COMPRESSOR OIL.png",
     "tagline": "Low pour point refrigeration compressor oils for CFC, HCFC, and ammonia chillers.",
-    "description": "Kembot Freeze oils are specially refined wax-free naphthenic oils designed for the lubrication of refrigeration and air conditioning compressors operating at sub-zero evaporator temperatures.",
+    "description": "DLFROL Freeze oils are specially refined wax-free naphthenic oils designed for the lubrication of refrigeration and air conditioning compressors operating at sub-zero evaporator temperatures.",
     "applications": [
       "Industrial refrigeration compressors in cold storage plants, ice factories, and dairies using Ammonia (R717) or Freon refrigerants.",
       "Commercial HVAC chillers, food freezing tunnels, and transport refrigeration."
@@ -886,7 +886,7 @@
     "specsTable": [
       {
         "label": "Viscosity Grades",
-        "val": "Kembot Freeze 32, 46, 57, 68"
+        "val": "DLFROL Freeze 32, 46, 57, 68"
       },
       {
         "label": "Pour Point",
@@ -909,7 +909,7 @@
   {
     "id": "edm-oil",
     "name": "EDM Oil (Spark Erosion Fluid)",
-    "brand": "KEMBOT EDM SERIES",
+    "brand": "DLFROL EDM SERIES",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "Meets All Modern EDM Die-Sinking Standards",
@@ -917,7 +917,7 @@
     "packaging": "20L, 210L Drums",
     "image": "images/product-bottle.png",
     "tagline": "Ultra-pure hydrocarbon dielectric fluid for high-precision spark erosion die sinking.",
-    "description": "Kembot EDM Series is an ultra-pure synthetic-grade dielectric fluid formulated with narrow boiling range hydrocarbons for electrical discharge machining (EDM).",
+    "description": "DLFROL EDM Series is an ultra-pure synthetic-grade dielectric fluid formulated with narrow boiling range hydrocarbons for electrical discharge machining (EDM).",
     "applications": [
       "Roughing and high-precision finishing operations on all EDM die-sinking machines (Charmilles, Makino, Mitsubishi, Sodick).",
       "Precision tool and mold manufacturing, aerospace components, and micro-machining."
@@ -956,7 +956,7 @@
   {
     "id": "auto-special",
     "name": "Auto Special Fluids & Treatments",
-    "brand": "KEMBOT AUTO SPECIAL",
+    "brand": "DLFROL AUTO SPECIAL",
     "category": "Automotive Oil",
     "categorySlug": "automotive-oil.html",
     "spec": "Meets All Reputed Automotive Special Specifications",
@@ -964,7 +964,7 @@
     "packaging": "250ml, 500ml, 1L, 5L, 20L",
     "image": "images/product-bottle.png",
     "tagline": "Specialty automotive maintenance fluids, engine flushes, and performance enhancers.",
-    "description": "Kembot Auto Special represents high-performance automotive specialty formulations including concentrated engine flushes, radiator coolants, injector cleaners, and transmission specialty fluids.",
+    "description": "DLFROL Auto Special represents high-performance automotive specialty formulations including concentrated engine flushes, radiator coolants, injector cleaners, and transmission specialty fluids.",
     "applications": [
       "Passenger cars, commercial utility vehicles, and heavy fleet maintenance.",
       "Pre-oil change crankcase cleaning and engine sludge removal.",
@@ -999,7 +999,7 @@
   {
     "id": "multi-grade-engine-oil-milby",
     "name": "Multi Grade Engine Oil (Milby)",
-    "brand": "KEMBOT MILBY 20W/40, 20W/50",
+    "brand": "DLFROL MILBY 20W/40, 20W/50",
     "category": "Automotive Oil",
     "categorySlug": "automotive-oil.html",
     "spec": "API CF-4 / SG, IS 13656 EDL-3",
@@ -1007,7 +1007,7 @@
     "packaging": "1L, 3.5L, 5L, 7.5L, 10L, 20L, 50L, 210L",
     "image": "images/Products/ENGINE OIL-2.png",
     "tagline": "All-weather multigrade diesel and gasoline engine oil for reliable commercial transport.",
-    "description": "Kembot Milby is a premium multigrade crankcase lubricant engineered for heavy-duty diesel engines operating under severe stop-and-go and highway hauling conditions.",
+    "description": "DLFROL Milby is a premium multigrade crankcase lubricant engineered for heavy-duty diesel engines operating under severe stop-and-go and highway hauling conditions.",
     "applications": [
       "Commercial trucks, buses, light commercial vehicles (LCVs), and utility tractors.",
       "Naturally aspirated and turbocharged diesel engines requiring 20W40 / 20W50 API CF-4.",
@@ -1047,7 +1047,7 @@
   {
     "id": "multi-grade-diesel-premium",
     "name": "Premium Multi Grade Diesel Engine Oil (MIL-C)",
-    "brand": "KEMBOT PREMIUM 15W/40 (CF4, CH4, CJ4, CK+ Series)",
+    "brand": "DLFROL PREMIUM 15W/40 (CF4, CH4, CJ4, CK+ Series)",
     "category": "Automotive Oil",
     "categorySlug": "automotive-oil.html",
     "spec": "API CK-4 / CJ-4 / CI-4 Plus / CH-4 / CF-4, ACEA E9/E7, MB 228.31, Volvo VDS-4.5",
@@ -1055,7 +1055,7 @@
     "packaging": "1L, 5L, 15L, 20L, 55L, 210L",
     "image": "images/Products/ENGINE OIL-3.png",
     "tagline": "Advanced heavy-duty diesel engine oil for modern BS-VI / Euro VI fleets with DPF and SCR.",
-    "description": "Kembot Premium Diesel Engine Oil is a top-tier heavy-duty lubricant formulated with synthetic blend base oils and Low-SAPS additive technology to protect modern emission-controlled diesel engines.",
+    "description": "DLFROL Premium Diesel Engine Oil is a top-tier heavy-duty lubricant formulated with synthetic blend base oils and Low-SAPS additive technology to protect modern emission-controlled diesel engines.",
     "applications": [
       "Modern high-speed, 4-stroke heavy-duty diesel engines equipped with EGR, DPF, and SCR emission systems.",
       "Heavy commercial vehicles (Tata, Ashok Leyland, BharatBenz, Volvo, Scania, MAN).",
@@ -1095,7 +1095,7 @@
   {
     "id": "4t-motorcycle-oils",
     "name": "4T / 4T Plus Motorcycle Oils",
-    "brand": "KEMBOT 4T PLUS 10W/30, 10W/40, 20W/40, 20W/50",
+    "brand": "DLFROL 4T PLUS 10W/30, 10W/40, 20W/40, 20W/50",
     "category": "Automotive Oil",
     "categorySlug": "automotive-oil.html",
     "spec": "JASO MA2 / API SN / SM / SL",
@@ -1103,7 +1103,7 @@
     "packaging": "900ml, 1L, 50L, 210L",
     "image": "images/product-bottle.png",
     "tagline": "High-performance 3-in-1 protection for motorcycle engine, clutch, and gearbox.",
-    "description": "Kembot 4T Plus is a premium 4-stroke motorcycle engine oil engineered with Synthetic Boosters and Friction Modifiers to deliver high throttle response, clutch grip, and gear protection.",
+    "description": "DLFROL 4T Plus is a premium 4-stroke motorcycle engine oil engineered with Synthetic Boosters and Friction Modifiers to deliver high throttle response, clutch grip, and gear protection.",
     "applications": [
       "Modern 4-stroke motorcycles, sports bikes, cruisers, and scooters (Hero, Honda, Bajaj, TVS, Yamaha, Royal Enfield, Suzuki, KTM).",
       "Wet-clutch integrated engine-gearbox-clutch configurations."
@@ -1142,7 +1142,7 @@
   {
     "id": "rust-preventive-oil",
     "name": "Rust Preventive Oils (RPO Series)",
-    "brand": "KEMBOT DW 901(WET), DW 902(DRY), 904, 630, 6304, 274",
+    "brand": "DLFROL DW 901(WET), DW 902(DRY), 904, 630, 6304, 274",
     "category": "Industrial Oil",
     "categorySlug": "industrial-oil.html",
     "spec": "IS 1154 / IS 1153 Dewatering & Non-Dewatering Types",
@@ -1150,7 +1150,7 @@
     "packaging": "20L, 210L Drums",
     "image": "images/product-drum.png",
     "tagline": "Fast-acting dewatering and dry/wet protective barrier oils for inter-operational and export storage.",
-    "description": "Kembot RPO Series rust preventives are blended with active film-forming additives, moisture-displacing surfactants, and corrosion inhibitors dissolved in volatile hydrocarbon carriers.",
+    "description": "DLFROL RPO Series rust preventives are blended with active film-forming additives, moisture-displacing surfactants, and corrosion inhibitors dissolved in volatile hydrocarbon carriers.",
     "applications": [
       "Protection of machined metal components, bearing rings, camshafts, fasteners, and sheet metal.",
       "Export shipping protection and indoor/outdoor warehouse storage.",
@@ -1190,7 +1190,7 @@
   {
     "id": "fork-oil",
     "name": "Front Fork Oils (Suspension Fluid)",
-    "brand": "KEMBOT FORK OILS (5W, 10W, 15W, 20W)",
+    "brand": "DLFROL FORK OILS (5W, 10W, 15W, 20W)",
     "category": "Automotive Oil",
     "categorySlug": "automotive-oil.html",
     "spec": "Premium Motorcycle Fork & Shock Absorber Standards",
@@ -1198,7 +1198,7 @@
     "packaging": "350ml, 500ml, 1L, 20L",
     "image": "images/product-bottle.png",
     "tagline": "High-damping hydraulic suspension fluid for smooth road handling and zero foaming.",
-    "description": "Kembot Fork Oil is a high viscosity index hydraulic fluid formulated specifically for motorcycle telescopic forks and shock absorbers.",
+    "description": "DLFROL Fork Oil is a high viscosity index hydraulic fluid formulated specifically for motorcycle telescopic forks and shock absorbers.",
     "applications": [
       "Front telescopic suspension forks and rear shock absorbers on all two-wheelers.",
       "Street bikes, off-road motocross motorcycles, and heavy cruisers."
@@ -1240,7 +1240,7 @@
     "packaging": "500g, 1kg, 5kg, 18kg Pail, 180kg Drum",
     "image": "images/Products/MULTI-PURPOSE GREASE.png",
     "tagline": "Heavy-duty lithium, lithium complex, and specialty anti-seize greases.",
-    "description": "Kembot Grease range includes Lithium All-Purpose (AP3), Extreme Pressure (EP2, EP0, EP00), High Temperature Lithium Complex, and Copper Anti-Seize compounds for severe friction and load conditions.",
+    "description": "DLFROL Grease range includes Lithium All-Purpose (AP3), Extreme Pressure (EP2, EP0, EP00), High Temperature Lithium Complex, and Copper Anti-Seize compounds for severe friction and load conditions.",
     "applications": [
       "Automotive wheel bearings, chassis lubrication, universal joints, and kingpins.",
       "Industrial ball and roller bearings, centralized grease systems (EP 0, EP 00).",

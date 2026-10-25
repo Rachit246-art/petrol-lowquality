@@ -59,15 +59,15 @@ function initMobileNav() {
                 const mailLi = document.createElement('li');
                 mailLi.className = 'mobile-menu-mail-item';
                 mailLi.innerHTML = `
-                    <a href="mailto:Contact@kembotpetroleum.com" class="mobile-mail-link">
+                    <a href="mailto:Contact@dlfrol.com" class="mobile-mail-link">
                         <span style="display:flex; align-items:center; gap:0.6rem;">
                             <span style="font-size:1.15rem; line-height:1;">✉️</span>
                             <span style="display:flex; flex-direction:column; line-height:1.2;">
                                 <small style="font-size:0.7rem; color:#94a3b8; text-transform:uppercase; letter-spacing:0.5px;">Mail Us</small>
-                                <span style="font-size:0.88rem; color:#ff4500; font-weight:700;">Contact@kembotpetroleum.com</span>
+                                <span style="font-size:0.88rem; color:#F36C21; font-weight:700;">Contact@dlfrol.com</span>
                             </span>
                         </span>
-                        <span style="font-size:1rem; color:#ff4500;">&rarr;</span>
+                        <span style="font-size:1rem; color:#F36C21;">&rarr;</span>
                     </a>
                 `;
                 navLinks.appendChild(mailLi);
@@ -167,9 +167,9 @@ function filterCatalog(category, btn) {
         b.style.borderColor = '#cbd5e1';
     });
     if (btn) {
-        btn.style.backgroundColor = '#ff4500';
+        btn.style.backgroundColor = '#F36C21';
         btn.style.color = '#fff';
-        btn.style.borderColor = '#ff4500';
+        btn.style.borderColor = '#F36C21';
     }
 
     const cards = document.querySelectorAll('#catalogGrid .catalog-card');
@@ -214,8 +214,8 @@ const SITE_SEARCH_INDEX = [
     { name: "Auto Special Oils (Pump & Gas)", cat: "Automotive Oil", desc: "Specialty agricultural pump set oil and CNG/LPG engine oil.", url: "products/auto-special.html" },
     { name: "Industrial & Automotive Greases", cat: "Greases", desc: "Lithium, AP-3, EP-2, Calcium and high-temp complex greases.", url: "products/industrial-automotive-greases.html" },
     { name: "White Oils (Liquid Paraffin)", cat: "Specialties", desc: "IP/BP/USP pure mineral white oil for cosmetic and industrial use.", url: "products/white-oils.html" },
-    { name: "All Products Catalog (Full 27 Range)", cat: "Catalog", desc: "Browse the complete product catalog of all 27 technical formulations and packaging options.", url: "products.html" },
-    { name: "Equivalent Cross-Reference Chart", cat: "Tools", desc: "Compare Kembot formulas with HPCL, IOC, Castrol, and Servo grades.", url: "equivalent-chart.html" }
+    { name: "All Products Catalog (Full 27 Range)", cat: "Catalog", desc: "Browse the complete product catalog of all 27 technical formulations and packaging options.", url: "#products" },
+    { name: "Equivalent Cross-Reference Chart", cat: "Tools", desc: "Compare DLFROL formulas with HPCL, IOC, Castrol, and Servo grades.", url: "equivalent-chart.html" }
 ];
 
 function initSearchModal() {
@@ -280,7 +280,7 @@ function initSearchModal() {
                     <div class="search-no-results">
                         <div style="font-size:2rem; margin-bottom:0.5rem;">🔍</div>
                         <strong>No direct results found for "${query}"</strong>
-                        <p>Try searching for hydraulic, cutting, engine, gear, grease, or consult our <a href="${prefix}equivalent-chart.html" style="color:#ff4500; font-weight:700;">Equivalent Chart</a>.</p>
+                        <p>Try searching for hydraulic, cutting, engine, gear, grease, or consult our <a href="${prefix}equivalent-chart.html" style="color:#F36C21; font-weight:700;">Equivalent Chart</a>.</p>
                     </div>
                 `;
                 return;
@@ -361,3 +361,182 @@ if (document.readyState === 'loading') {
 } else {
     initSearchModal();
 }
+
+// =========================================================================
+// PRODUCT SPECS MODAL & TAB HANDLERS FOR SINGLE PAGE
+// =========================================================================
+let allProductsCache = [];
+fetch('products-data.json')
+    .then(res => res.json())
+    .then(data => {
+        allProductsCache = data;
+    })
+    .catch(err => console.error('Error loading products data:', err));
+
+function closeProductSpecsModal() {
+    const modal = document.getElementById('prodDetailModal');
+    if (modal) {
+        modal.classList.remove('active');
+        modal.style.display = 'none';
+    }
+    document.body.style.overflow = '';
+}
+
+function openProductSpecsModal(productId) {
+    const p = allProductsCache.find(item => item.id === productId);
+    if (!p) return;
+
+    let modal = document.getElementById('prodDetailModal');
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'prodDetailModal';
+        modal.className = 'site-search-modal';
+        modal.style.alignItems = 'center';
+        modal.style.justifyContent = 'center';
+        modal.style.padding = '1.5rem';
+        document.body.appendChild(modal);
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeProductSpecsModal();
+            }
+        });
+
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeProductSpecsModal();
+            }
+        });
+    }
+
+    let specsRows = '';
+    if (p.specsTable && p.specsTable.length > 0) {
+        specsRows = p.specsTable.map(s => `
+            <tr>
+                <th style="padding:0.75rem 1rem; background:#f8fafc; color:#475569; width:40%; text-align:left; border-bottom:1px solid #e2e8f0; font-size:0.88rem;">${s.label}</th>
+                <td style="padding:0.75rem 1rem; color:#0B2545; font-weight:600; text-align:left; border-bottom:1px solid #e2e8f0; font-size:0.88rem;">${s.val}</td>
+            </tr>
+        `).join('');
+    }
+
+    let appsList = '';
+    if (p.applications && p.applications.length > 0) {
+        appsList = p.applications.map(a => `<li style="margin-bottom:0.4rem;">${a}</li>`).join('');
+    }
+
+    let featuresList = '';
+    if (p.features && p.features.length > 0) {
+        featuresList = p.features.map(f => `<li style="margin-bottom:0.4rem;">${f}</li>`).join('');
+    }
+
+    modal.innerHTML = `
+        <div style="background:#fff; border-radius:12px; max-width:850px; width:100%; max-height:90vh; overflow-y:auto; padding:2.5rem; position:relative; box-shadow:0 25px 50px rgba(0,0,0,0.25); animation:modalIn 0.3s ease;" onclick="event.stopPropagation()">
+            <button type="button" onclick="closeProductSpecsModal()" style="position:absolute; top:1.2rem; right:1.5rem; background:transparent; border:none; font-size:1.8rem; cursor:pointer; color:#94a3b8; line-height:1;" aria-label="Close modal">&times;</button>
+            
+            <div style="display:flex; gap:2rem; flex-wrap:wrap; margin-bottom:2rem; border-bottom:1px solid #f1f5f9; padding-bottom:2rem;">
+                <div style="flex:1; min-width:240px; display:flex; flex-direction:column; align-items:center; justify-content:center; background:#f8fafc; border-radius:8px; padding:1.5rem; border:1px solid #e2e8f0;">
+                    <img src="${p.image}" alt="${p.name}" style="max-height:220px; max-width:100%; object-fit:contain;">
+                    <div style="margin-top:1rem; font-size:0.8rem; font-weight:700; color:#F36C21; background:rgba(243,108,33,0.1); padding:0.35rem 0.9rem; border-radius:20px;">📦 Pack: ${p.packaging || '20L, 50L, 210L'}</div>
+                </div>
+                <div style="flex:1.5; min-width:280px; display:flex; flex-direction:column; justify-content:center;">
+                    <span style="font-size:0.75rem; font-weight:800; color:#F36C21; text-transform:uppercase; letter-spacing:0.5px;">${p.category}</span>
+                    <h2 style="font-family:'Outfit', sans-serif; font-size:1.9rem; font-weight:800; color:#0B2545; margin:0.3rem 0 0.5rem 0; line-height:1.25;">${p.name}</h2>
+                    <div style="font-size:0.95rem; font-weight:700; color:#0B2545; margin-bottom:0.8rem;">${p.brand || ''}</div>
+                    <p style="font-size:0.92rem; color:#475569; line-height:1.6; margin-bottom:1.2rem;">${p.description || p.tagline || ''}</p>
+                    
+                    ${p.equivalent ? `
+                        <div style="background:#f1f5f9; border-left:4px solid #F36C21; padding:0.8rem 1rem; border-radius:0 6px 6px 0; margin-bottom:1.2rem;">
+                            <div style="font-size:0.72rem; font-weight:700; text-transform:uppercase; color:#64748b;">Market Equivalent:</div>
+                            <div style="font-size:0.88rem; font-weight:700; color:#0B2545;">${p.equivalent}</div>
+                        </div>
+                    ` : ''}
+
+                    <div>
+                        <a href="#contact" onclick="closeProductSpecsModal(); selectProductInquiry('${encodeURIComponent(p.name)}');" class="btn-primary" style="padding:0.7rem 1.6rem; font-size:0.9rem; text-decoration:none; display:inline-block;">Inquire For This Product &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            ${specsRows ? `
+                <div style="margin-bottom:2rem;">
+                    <h3 style="font-family:'Outfit', sans-serif; font-size:1.3rem; color:#0B2545; margin-bottom:0.8rem; border-bottom:2px solid #F36C21; display:inline-block; padding-bottom:0.2rem;">Technical Specifications</h3>
+                    <table style="width:100%; border-collapse:collapse; border:1px solid #e2e8f0; border-radius:6px; overflow:hidden;">
+                        <tbody>${specsRows}</tbody>
+                    </table>
+                </div>
+            ` : ''}
+
+            ${appsList ? `
+                <div style="margin-bottom:1.5rem;">
+                    <h3 style="font-family:'Outfit', sans-serif; font-size:1.2rem; color:#0B2545; margin-bottom:0.6rem;">Recommended Applications</h3>
+                    <ul style="padding-left:1.3rem; color:#475569; font-size:0.92rem; line-height:1.6;">${appsList}</ul>
+                </div>
+            ` : ''}
+
+            ${featuresList ? `
+                <div>
+                    <h3 style="font-family:'Outfit', sans-serif; font-size:1.2rem; color:#0B2545; margin-bottom:0.6rem;">Key Features & Benefits</h3>
+                    <ul style="padding-left:1.3rem; color:#475569; font-size:0.92rem; line-height:1.6;">${featuresList}</ul>
+                </div>
+            ` : ''}
+        </div>
+    `;
+
+    modal.style.display = 'flex';
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function selectProductInquiry(productName) {
+    const decoded = decodeURIComponent(productName);
+    const select = document.getElementById('contactProduct');
+    const msg = document.getElementById('contactMessage');
+    if (select) {
+        select.value = decoded;
+    }
+    if (msg) {
+        msg.value = 'Hello DLFROL Team, I would like to request technical specifications, pricing, and availability for ' + decoded + '.';
+    }
+}
+
+// Tab switcher for Vision/Mission
+function openTab(evt, tabName) {
+    const contents = document.querySelectorAll('.vm-tab-content');
+    contents.forEach(content => content.style.display = 'none');
+    
+    const tabs = document.querySelectorAll('.vm-tab-btn');
+    tabs.forEach(tab => tab.classList.remove('active'));
+    
+    const target = document.getElementById(tabName);
+    if (target) {
+        target.style.display = 'block';
+    }
+    if (evt && evt.currentTarget) {
+        evt.currentTarget.classList.add('active');
+    }
+}
+
+// Find product by closest card heading and open modal
+function openProductSpecsModalByCard(triggerEl) {
+    if (!triggerEl) return;
+    const card = triggerEl.closest('.product-card, .catalog-card');
+    if (!card) return;
+    const titleEl = card.querySelector('.product-title, h4, h3');
+    if (!titleEl) return;
+    const titleText = titleEl.textContent.trim().toLowerCase();
+    
+    // Find matching item in allProductsCache
+    const match = allProductsCache.find(p => {
+        const pName = (p.name || '').toLowerCase();
+        return pName === titleText || titleText.includes(pName) || pName.includes(titleText);
+    });
+
+    if (match) {
+        openProductSpecsModal(match.id);
+    } else if (allProductsCache.length > 0) {
+        // Fallback to first product or open general modal
+        openProductSpecsModal(allProductsCache[0].id);
+    }
+}
+
+
